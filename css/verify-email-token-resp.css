@@ -1,0 +1,35 @@
+@media (max-width: 756px) {
+
+    .verify-email-token-logo > a > img {
+        width: 100px;
+    }
+    
+    .verify-email-text > p > span,
+    .token-not-found-text > p > span,
+    .token-text > p > span {
+        font-size: 4vw;
+    }
+
+    .token-expired {
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+
+    .go-to-registration {
+        font-size: 3vw !important;
+    }
+
+}
+
+@media (max-width: 580px) {
+    
+    
+    .verify-email-text,
+    .token-not-found-text,
+    .token-text-box {
+        margin-left: auto;
+        margin-right: auto;
+        width: max-content;
+    }
+
+}
